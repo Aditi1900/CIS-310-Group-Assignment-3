@@ -13,6 +13,9 @@ Program Counter test:
 ![image](https://github.com/user-attachments/assets/cde4174e-b33b-4a02-a37d-cc0dc29c504b)
 
 Instruction Memory:
+Registers_DRAM - Program counter (gives input to Address), Address (provides address to Dram), Input_Mem (gives input to IR), IR (shows output of current address), All CTRL (Load, set, reset)
+
+Test SS
 
 Extended Instruction Registers (IRs):
 ![image](https://github.com/user-attachments/assets/64d7e070-37da-406b-8041-6d31580cb002)
