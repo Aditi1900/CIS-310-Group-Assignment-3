@@ -1,7 +1,9 @@
 # CIS-310-Group-Assignment-3
 
-Design Choices: Explanation of how you integrated the PC, Instruction Memory, IRs, Instruction Decoder, Register File, and ALU.
+Design Choices: 
+The Program Counter (PC) generates the address for fetching instructions from the Instruction Memory. This instruction is loaded into the Instruction Register (IR), which holds the current instruction for decoding. The Instruction Decoder interprets the opcode and sends control signals to direct the next steps in the execution process.
 
+The control signals guide the Register File to select the correct registers and send their values to the ALU. Based on the operation type, the ALU performs arithmetic or logical functions like add, subtract, or increment. The structure ensures smooth data flow from instruction fetch to execution, making each component easy to test and debug individually.
 
 Control Signals: Description of how the instruction is decoded and how control signals are generated.
 
