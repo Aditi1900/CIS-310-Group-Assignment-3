@@ -7,3 +7,13 @@ Control Signals: Description of how the instruction is decoded and how control s
 
 
 Testing: Include screenshots the correct operation of each component and the full processor.
+
+Program Counter:
+
+Instruction Memory:
+
+Extended Instruction Registers (IRs):
+
+Register File and ALU:
+
+
