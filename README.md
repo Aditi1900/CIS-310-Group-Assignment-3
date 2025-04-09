@@ -5,19 +5,24 @@ The Program Counter (PC) generates the address for fetching instructions from th
 
 The control signals guide the Register File to select the correct registers and send their values to the ALU. Based on the operation type, the ALU performs arithmetic or logical functions like add, subtract, or increment. The structure ensures smooth data flow from instruction fetch to execution, making each component easy to test and debug individually.
 
-Control Signals: Description of how the instruction is decoded and how control signals are generated.
+
+Control Signals:
+The instruction is decoded by analyzing its opcode bits in the Instruction Decoder. Based on the opcode, the decoder activates specific control lines to enable actions like loading registers, selecting ALU operations, or writing results. These control signals ensure each component performs its task correctly during the instruction cycle.
 
 
 Testing: Include screenshots the correct operation of each component and the full processor.
+
 
 Program Counter test:
 ![image](https://github.com/user-attachments/assets/dee95c76-a23f-4bfd-af77-01bd1fc98833)
 ![image](https://github.com/user-attachments/assets/cde4174e-b33b-4a02-a37d-cc0dc29c504b)
 
+
 Instruction Memory:
 Registers_DRAM - Program counter (gives input to Address), Address (provides address to Dram), Input_Mem (gives input to IR), IR (shows output of current address), All CTRL (Load, set, reset)
 
 Test SS
+
 
 Extended Instruction Registers (IRs):
 ![image](https://github.com/user-attachments/assets/64d7e070-37da-406b-8041-6d31580cb002)
